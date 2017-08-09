@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     //FIXME: - 提醒
     
     let testTableView = UITableView(frame: CGRect(x: 0, y: 0, width: KISSize.width, height: KISSize.height), style: UITableViewStyle.plain)
-    let tabDS:Array = [
+    var tabDS:Array = [
         ["class":"TimeViewController","title":"时间"],
         ["class":"FontViewController","title":"字体"],
         ["class":"VideoViewController","title":"视频"],
@@ -35,11 +35,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ["class":"PickerViewController","title":"Picker"],
         ["class":"ChildChtrolViewController","title":"ChildChtrol"],
         ["class":"CustomPushViewController","title":"自定义过场动画"],
-
+        ["class":"TumblrViewController","title":"菜单"],
+        ["class":"CollecItemAnimationViewController","title":"CollectionItemAnimation"],
+        ["class":"SortableViewController","title":"可移动九宫格"],
         
     ]
     
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Swift"
@@ -51,6 +54,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     
     func initView () {
+        tabDS = tabDS.reversed()
+        
         testTableView.delegate = self
         testTableView.dataSource = self
         testTableView.register(UITableViewCell.self, forCellReuseIdentifier: timeCell)

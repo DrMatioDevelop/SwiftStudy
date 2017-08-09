@@ -45,7 +45,7 @@ class AnimationTableViewViewController: BaseViewController, UITableViewDelegate,
             UIView.animate(withDuration: 1.0,
                            delay: 0.05 * Double(index),
                            usingSpringWithDamping: 0.8,   //弹簧效果0.0-1.0 值越小震动效果越明显
-                           initialSpringVelocity: 0,      //表示初始速度 数值越大开始移动的速度越快  初速取值高世界较短  也会出现反弹的情况
+                           initialSpringVelocity: 0,      //表示初始速度 数值越大开始移动的速度越快  初速取值高时间较短  也会出现反弹的情况
                            options: [],
                            animations: {
                         //动画结束位置

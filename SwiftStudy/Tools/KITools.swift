@@ -19,6 +19,9 @@ let KINavgationBarHeight : CGFloat = 44.0
 let KINavAndStateBarH    : CGFloat = 64.0
 let KITabBarHeight       : CGFloat = 49.0
 
+//此随机色在运行的时候已经确定
+let KIRandomColor : UIColor = UIColor(red: CGFloat(drand48()), green: CGFloat(drand48()), blue: CGFloat(drand48()), alpha: 1.0)
+
 let iPhone4 : Bool = UIScreen.instancesRespond(to: #selector(getter: RunLoop.currentMode)) ? CGSize(width: 640, height: 960).equalTo((UIScreen.main.currentMode?.size)!) : false
 
 extension UIView {

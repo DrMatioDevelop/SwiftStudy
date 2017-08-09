@@ -98,7 +98,7 @@ class ImageScrollerViewController: BaseViewController {
         scrollView.delegate         = self
         
         scrollView.addSubview(imageView)
-        view.addSubview(scrollView)
+//        view.addSubview(scrollView)
     }
     
     

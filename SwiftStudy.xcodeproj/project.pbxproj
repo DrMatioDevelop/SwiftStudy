@@ -35,6 +35,13 @@
 		56A310401F29E38C004C0675 /* KITools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A3103F1F29E38C004C0675 /* KITools.swift */; };
 		56D5C2311F2F30850094A93D /* SystemRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D5C2301F2F30850094A93D /* SystemRefreshViewController.swift */; };
 		56D5C2331F2F3E8A0094A93D /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D5C2321F2F3E8A0094A93D /* GradientViewController.swift */; };
+		56DB1CCD1F382E79005A9B3B /* TumblrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CCC1F382E79005A9B3B /* TumblrViewController.swift */; };
+		56DB1CD11F382EF4005A9B3B /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CD01F382EF4005A9B3B /* MenuTransitionManager.swift */; };
+		56DB1CD31F382FE9005A9B3B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CD21F382FE9005A9B3B /* MenuViewController.swift */; };
+		56DB1CD61F384ED3005A9B3B /* CollecItemAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CD51F384ED3005A9B3B /* CollecItemAnimationViewController.swift */; };
+		56DB1CD81F38528C005A9B3B /* AnimationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CD71F38528C005A9B3B /* AnimationItem.swift */; };
+		56DB1CDB1F3867CD005A9B3B /* SortableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CDA1F3867CD005A9B3B /* SortableViewController.swift */; };
+		56DB1CDD1F3868C1005A9B3B /* SortableCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56DB1CDC1F3868C1005A9B3B /* SortableCollectionView.swift */; };
 		56FECE4C1F316F87008262AA /* ImageScrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FECE4B1F316F87008262AA /* ImageScrollerViewController.swift */; };
 		56FECE4E1F31A84F008262AA /* moments.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 56FECE4D1F31A84F008262AA /* moments.mp4 */; };
 		56FECE501F31A864008262AA /* VideoBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FECE4F1F31A864008262AA /* VideoBackViewController.swift */; };
@@ -77,6 +84,13 @@
 		56A3103F1F29E38C004C0675 /* KITools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KITools.swift; sourceTree = "<group>"; };
 		56D5C2301F2F30850094A93D /* SystemRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemRefreshViewController.swift; sourceTree = "<group>"; };
 		56D5C2321F2F3E8A0094A93D /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		56DB1CCC1F382E79005A9B3B /* TumblrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrViewController.swift; sourceTree = "<group>"; };
+		56DB1CD01F382EF4005A9B3B /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		56DB1CD21F382FE9005A9B3B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		56DB1CD51F384ED3005A9B3B /* CollecItemAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollecItemAnimationViewController.swift; sourceTree = "<group>"; };
+		56DB1CD71F38528C005A9B3B /* AnimationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationItem.swift; sourceTree = "<group>"; };
+		56DB1CDA1F3867CD005A9B3B /* SortableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortableViewController.swift; sourceTree = "<group>"; };
+		56DB1CDC1F3868C1005A9B3B /* SortableCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortableCollectionView.swift; sourceTree = "<group>"; };
 		56FECE4B1F316F87008262AA /* ImageScrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollerViewController.swift; sourceTree = "<group>"; };
 		56FECE4D1F31A84F008262AA /* moments.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = moments.mp4; sourceTree = "<group>"; };
 		56FECE4F1F31A864008262AA /* VideoBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoBackViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +116,9 @@
 		5608C48E1F341B1D00F0BC15 /* exmple2 */ = {
 			isa = PBXGroup;
 			children = (
+				56DB1CD91F3865D3005A9B3B /* Sortable */,
+				56DB1CD41F384B2F005A9B3B /* CollectionVIewItemAnimation */,
+				56DB1CCB1F382E23005A9B3B /* TumblrMenu */,
 				5608C48F1F341B7400F0BC15 /* PickerViewController.swift */,
 				5608C4911F343F2B00F0BC15 /* AnimationSplashViewController.swift */,
 				5608C4931F3441DD00F0BC15 /* ChildChtrolViewController.swift */,
@@ -209,6 +226,34 @@
 			path = exmple1;
 			sourceTree = "<group>";
 		};
+		56DB1CCB1F382E23005A9B3B /* TumblrMenu */ = {
+			isa = PBXGroup;
+			children = (
+				56DB1CCC1F382E79005A9B3B /* TumblrViewController.swift */,
+				56DB1CD21F382FE9005A9B3B /* MenuViewController.swift */,
+				56DB1CD01F382EF4005A9B3B /* MenuTransitionManager.swift */,
+			);
+			path = TumblrMenu;
+			sourceTree = "<group>";
+		};
+		56DB1CD41F384B2F005A9B3B /* CollectionVIewItemAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				56DB1CD51F384ED3005A9B3B /* CollecItemAnimationViewController.swift */,
+				56DB1CD71F38528C005A9B3B /* AnimationItem.swift */,
+			);
+			path = CollectionVIewItemAnimation;
+			sourceTree = "<group>";
+		};
+		56DB1CD91F3865D3005A9B3B /* Sortable */ = {
+			isa = PBXGroup;
+			children = (
+				56DB1CDA1F3867CD005A9B3B /* SortableViewController.swift */,
+				56DB1CDC1F3868C1005A9B3B /* SortableCollectionView.swift */,
+			);
+			path = Sortable;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -289,15 +334,20 @@
 			files = (
 				56A3102F1F29E34E004C0675 /* ViewController.swift in Sources */,
 				567E799F1F2AE904002C1F29 /* TimeViewController.swift in Sources */,
+				56DB1CD61F384ED3005A9B3B /* CollecItemAnimationViewController.swift in Sources */,
+				56DB1CD81F38528C005A9B3B /* AnimationItem.swift in Sources */,
 				567E79B41F2B2D19002C1F29 /* CollectionViewCell.swift in Sources */,
 				56FECE561F32C027008262AA /* AnimationTableViewViewController.swift in Sources */,
 				567E79A11F2AEBC3002C1F29 /* VideoTableViewCell.swift in Sources */,
 				5608C4961F344FEE00F0BC15 /* CustomPushViewController.swift in Sources */,
 				5608C4981F3456B700F0BC15 /* PushAnimation.swift in Sources */,
+				56DB1CD31F382FE9005A9B3B /* MenuViewController.swift in Sources */,
 				567E799D1F2AE8E9002C1F29 /* VideoViewController.swift in Sources */,
+				56DB1CCD1F382E79005A9B3B /* TumblrViewController.swift in Sources */,
 				56FECE541F31D5D3008262AA /* TableViewHeadViewController.swift in Sources */,
 				567E79AE1F2B08F5002C1F29 /* UIScrollViewController.swift in Sources */,
 				56FECE501F31A864008262AA /* VideoBackViewController.swift in Sources */,
+				56DB1CD11F382EF4005A9B3B /* MenuTransitionManager.swift in Sources */,
 				565B10211F307CF20076400C /* DoCatchViewController.swift in Sources */,
 				56A3102D1F29E34E004C0675 /* AppDelegate.swift in Sources */,
 				567E79B21F2B2B95002C1F29 /* UICollectionModel.swift in Sources */,
@@ -312,9 +362,11 @@
 				5608C4941F3441DD00F0BC15 /* ChildChtrolViewController.swift in Sources */,
 				5608C4901F341B7400F0BC15 /* PickerViewController.swift in Sources */,
 				56FECE5C1F32F7BC008262AA /* ShapLayerViewController.swift in Sources */,
+				56DB1CDD1F3868C1005A9B3B /* SortableCollectionView.swift in Sources */,
 				56FECE4C1F316F87008262AA /* ImageScrollerViewController.swift in Sources */,
 				567E798B1F2AD27E002C1F29 /* FontViewController.swift in Sources */,
 				56D5C2311F2F30850094A93D /* SystemRefreshViewController.swift in Sources */,
+				56DB1CDB1F3867CD005A9B3B /* SortableViewController.swift in Sources */,
 				56A310401F29E38C004C0675 /* KITools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
